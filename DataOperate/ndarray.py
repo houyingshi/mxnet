@@ -10,3 +10,7 @@ D = nd.array(P)
 print(D)
 
 print(D.asnumpy())
+
+Y = nd.array([[2, 1, 4, 3], [1, 2, 3, 4], [4, 3, 2, 1]])
+
+print(X > Y)
